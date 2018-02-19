@@ -315,6 +315,7 @@ img {
 }
 .list-item {
 	display: inline-block;
+	vertical-align: top;
 	width: 14%;
 	padding-top: 25px;
 	text-align: center;
@@ -567,7 +568,6 @@ hr {
  */
 .footer {
 	text-align: center;
-	overflow: hidden;
 	padding-bottom: 40px;
 }
 .footer-logo {

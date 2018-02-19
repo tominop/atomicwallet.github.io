@@ -318,6 +318,7 @@
 
     /* footer */
     .footer {
+        overflow: hidden;
         margin-top: 80px;
     }
     .footer-email {
