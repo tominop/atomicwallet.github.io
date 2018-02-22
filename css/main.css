@@ -598,11 +598,65 @@ hr {
 
 
 
-
-
-
-
-
+/*
+ * page
+ */
+.bg-page-main {
+	right: 70px;
+}
+.bg-page-1 {
+	top: 280px;
+	right: -380px;
+}
+.bg-page-2 {
+	top: 760px;
+	left: -350px;
+}
+.bg-page-3 {
+	top: 1880px;
+	right: -380px;
+}
+.page {
+	margin-top: 170px;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.page-title {
+	line-height: 67px;
+	font-size: 48px;
+	color: #ffffff;
+	margin-bottom: 130px;
+}
+.page-text {
+	color: #182848;
+	line-height: 33px;
+	font-size: 18px;
+}
+.page-text p {
+	padding: 20px 0;
+	margin: 0;
+}
+.page-text a {
+	text-decoration: underline;
+	color: inherit;
+}
+.page-text a:hover {
+	text-decoration: none;
+}
+.page-text-item {
+	font-family: "Roboto Bold";
+	font-weight: 600;
+	font-size: 25px;
+}
+.page + .footer .container:before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	content: '';
+	width: 921px;
+	height: 1px;
+	background-color: #BCBABA;
+}
 
 
 

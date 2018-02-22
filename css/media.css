@@ -347,4 +347,38 @@
     }
     /* /footer */
 
+    /* page */
+    .page {
+        margin-top: 20px;
+    }
+    .page-title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    .page-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .page-text-item {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .bg-page-1 {
+        top: 190px;
+        width: 630px;
+    }
+    .bg-page-2 {
+        top: 560px;
+        width: 630px;
+    }
+    .bg-page-3 {
+        top: 1880px;
+        width: 680px;
+    }
+    .page + .footer .container:before {
+        content: none;
+    }
+    /* /page */
+
 }
